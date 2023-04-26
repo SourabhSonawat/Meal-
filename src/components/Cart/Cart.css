@@ -1,0 +1,36 @@
+.cart-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.actions {
+  /* text-align: right; */
+  margin-left: 20rem;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #7ed56f;
+  border: 1px solid #28b485;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  color: white;
+  transition: all 0.2s;
+}
+.actions:hover,
+.actions:active {
+  scale: 1.01;
+}
